@@ -26,7 +26,7 @@ public class CoffeeTaskScheduler implements SchedulingConfigurer {
     @Autowired
     private CoffeeMachine coffeeMachine;
 
-    @Value("${default.scheduling.time:5000}")
+    @Value("${default.scheduling.time:5}")
     private int defaultSchedulingTime;
 
     @Override
