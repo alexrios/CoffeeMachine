@@ -23,7 +23,7 @@ public class CoffeeMachine {
     private String defaultCoffeeType;
 
     public void prepare() {
-        log.info(configurations.get("coffee-type", defaultCoffeeType, String.class));
+        log.info("Versão: " + machineVersion + " - " + configurations.get("coffee-type", defaultCoffeeType, String.class));
     }
 
 }
